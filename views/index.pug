@@ -1,0 +1,57 @@
+doctype html
+html(lang="en")
+	head
+		title  #{title}
+		style 
+			include ../static/style.css    	
+	body 
+		nav#navbar
+			#logo 
+				img(src="/static/download (4).png", alt="logo") 
+			ul 
+				li #[a(href="/") Home]  
+				li #[a(href="/") About]
+				li #[a(href="/") Services] 
+				li #[a(href="/") Class Info] 
+				li #[a(href="/") Content Us] 
+		section#intosection 
+			div.large Welcome to My new dance Academy
+			div.small Eat Sleep Dances Repeat
+
+		section#missionsection
+			h2 Our Mission
+			.card 
+				.card1 
+					h3 Dance Perfection 
+					.card-box 
+						.card-img 
+							img(src="/static/download.png", alt="image")
+						.card-text 
+							p This is the bed dance academy of the universe.
+				.card1 
+					h3 Dance the way of the like 
+					.card-box 
+						.card-img 
+							img(src="/static/image1.png", alt="image")
+						.card-text 
+							p This is the best dance academy of the universe.
+				.card1 
+					h3 Expert Teaching 
+					.card-box 
+						.card-img 
+							img(src="/static/images3.png", alt="image")
+						.card-text 
+							p This is the best dance academy of the universe.
+																
+
+		section#infosection 
+			h2 Our Sponsor
+			.sponsor  
+				img(src="/static/download (1).png", alt="Sponser image", Class="sp-image")
+				img(src="/static/images.png", alt="Sponser image", Class="sp-image")
+				img(src="/static/download (3).png", alt="Sponser image", Class="sp-image")
+				img(src="/static/download (2).png", alt="Sponser image", Class="sp-image")
+		footer#footer 
+			p Copyright © 2024 DanceAcademy.com | All Rights Reserved 	 	
+	    
+	|	#{content}

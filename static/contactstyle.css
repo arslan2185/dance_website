@@ -1,0 +1,42 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+.container{
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+	margin: 12px;	
+	
+}
+.myform{
+	width: 100%;
+}
+
+h1{
+	font-size: 50px;
+	margin: 20px;
+}
+
+.input{
+	margin: 11px;
+    width: 50%;
+    padding: 12px;
+    border: 1px solid black;
+    border-radius: 5px;
+    font-size: 15px;
+	outline: none;
+	text-transform: capitalize;
+}
+
+.btn{
+	padding: 5px;
+	margin: 10px auto;
+	color: white;
+	background-color: black;
+	border-radius:8px ;
+	font-size: 20px;
+	display: block;
+	
+}

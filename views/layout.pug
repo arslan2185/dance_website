@@ -1,0 +1,29 @@
+doctype html
+html(lang="en")
+	head
+		meta(charset="UTF-8")
+		meta(name="viewport", content="width=device-width, initial-scale=1.0")
+		title Dance
+		block style 
+		block script 
+			script(src="https://kit.fontawesome.com/f722e54f66.js", crossorigin="anonymous")
+	body 
+	nav#navbar
+		#logo 
+			img(src="static/image/download (4).png", alt="logo") 
+		ul.center  
+			#bacs 
+				div 
+				div 
+				div 
+			input(type="checkbox", name="navcheckbox", class="checkbox") 
+			li #[a(href="/", class="active") Home]  
+			li #[a(href="/") About]
+			li #[a(href="/") Services] 
+			li #[a(href="/") Class Info] 
+			li #[a(href="/contact") Contact Us] 
+	block body 
+	footer#footer 
+		p Copyright © 2024 DanceAcademy.com | All Rights Reserved 	 	
+	    
+	|	#{content}			
